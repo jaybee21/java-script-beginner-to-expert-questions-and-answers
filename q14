@@ -1,3 +1,10 @@
+<! --Question number 14
+
+Write a JavaScript exercise to get the extension of a filename
+Answer: -->
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +13,11 @@
   <title>The extension of a filename.</title>
 </head>
 <body>
-
 </body>
+<script>
+filename = "system.php"
+console.log(filename.split('.').pop());
+filename = "abc.js"
+console.log(filename.split('.').pop());
+</script>
 </html>
